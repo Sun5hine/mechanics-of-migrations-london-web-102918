@@ -1,5 +1,5 @@
 
-class CreateArtists < ActiveRecord::Migration
+class CreateArtists < ActiveRecord::Migration[5.0]
 def up
 end
 
@@ -12,7 +12,7 @@ def change
     t.string :genre
     t.string :age
     t.string :hometown
-  end 
+  end
 end
 
 end
